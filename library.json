@@ -1,20 +1,20 @@
 {
   "name": "Arduino_AD7746",
   "version": "1.0.0",
-  "description": "Arduino/PlatformIO compatible driver for Analog Devices AD7746 Capacitance-to-Digital Converter.",
+  "description": "Arduino/ESP32 compatible driver for Analog Devices AD7746 Capacitance-to-Digital Converter.",
   "keywords": ["ad7746", "capacitance", "sensor", "i2c", "cdc"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jayfourjavier/Arduino_7746.git"
+    "url": "https://github.com/jayfourjavier/Arduino_AD7746.git"
   },
   "authors": [
     {"name": "Jay Four C. Javier"}
   ],
   "license": "MIT",
   "frameworks": ["arduino"],
-  "platforms": ["*"],
+  "platforms": ["atmelavr", "espressif32"],
   "headers": "Arduino_AD7746.h",
   "examples": [
-    "examples/Arduino_AD7746/AD7746.ino"
+    "examples/Arduino_Uno_AD7746/Arduino_Uno_AD7746.ino"
   ]
 }
